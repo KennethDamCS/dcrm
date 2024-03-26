@@ -29,4 +29,4 @@ def logout_user(request):
     return redirect('home')
 
 def register_user(request):
-    reurn render(request, 'register.html', {})
+    return render(request, 'register.html', {})
